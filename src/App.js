@@ -1,15 +1,10 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
-      <div className="space-between">
-        <p>Memory Card Game</p>
-        <div>
-          <p>Score: </p>
-          <p>Best Score: </p>
-        </div>
-      </div>
+      <Header/>
     </div>
   );
 }
